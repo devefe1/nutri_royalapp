@@ -1,38 +1,63 @@
 .App {
   text-align: center;
 }
+.Header{
+border:solid red ;
+height: 50px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Menu{
+  border:solid  orange 5px;
+  height: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Selection{
+  border:solid  green 5px;
+  height: 800px; 
+  width: 500px;
+  margin: 10px;
+}
+.image{
+  border: springgreen;
+  height: 500px;
+  width: 500px
 }
 
-.App-link {
-  color: #61dafb;
+.Nutrition{
+  border:solid  yellow 5px;
+  height: 350px; 
+  width: 800px;
+  margin: 10px;
+}
+.Review{
+  border:solid  plum 5px;
+  height: 350px; 
+  width: 800px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:50% 50%;
+  grid-template-areas: 
+  "selection nutrition"
+  "  review";
+} */
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: 
+  "Selection Nutrition" 
+  "Selection Review";
 }
+
+.Selection { grid-area: Selection; }
+
+.Nutrition { grid-area: Nutrition; }
+
+.Review { grid-area: Review; }
