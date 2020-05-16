@@ -69,3 +69,8 @@ height: 50px;
   margin: 5px;
   border: solid powderblue;
 }
+
+#logo{
+  height: 50px;
+  float: left;
+}
