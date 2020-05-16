@@ -4,7 +4,6 @@
 .Header{
 border:solid red ;
 height: 50px;
-
 }
 
 .Menu{
@@ -50,14 +49,28 @@ height: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 1px 1px;
   grid-template-areas: 
   "Selection Nutrition" 
   "Selection Review";
 }
 
 .Selection { grid-area: Selection; }
-
 .Nutrition { grid-area: Nutrition; }
-
 .Review { grid-area: Review; }
+
+#NavBarBttns{
+  list-style-type: none;
+  display: inline;
+}
+#NavBarBttns li{
+  float: right;
+  display: block;
+  padding: 10px;
+  margin: 5px;
+  border: solid powderblue;
+}
+
+#logo{
+  height: 50px;
+  float: left;
+}

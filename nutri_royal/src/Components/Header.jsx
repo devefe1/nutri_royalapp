@@ -1,10 +1,16 @@
 import React from 'react';
-// import './App.css';
+import Nutriroyal from './../images/Nutriroyal.png'
 
 function Header() {
   return (
       <nav className="Header">
-          header and menu
+          <img id="logo" src={Nutriroyal} />
+          <ul id="NavBarBttns">
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+
       </nav>
   );
 }
