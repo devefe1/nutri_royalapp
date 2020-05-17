@@ -8,7 +8,10 @@ class controlledCompForm extends React.Component {
       username: '',
       password: '',
       age: '',
-      gender: {male: '', female: '', other: ''},
+      gender: 
+        {male: '', 
+        female: '', 
+        other: ''},
       occupation: ''
     }
   //bind this to control for the component
