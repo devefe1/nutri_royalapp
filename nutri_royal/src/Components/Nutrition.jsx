@@ -3,9 +3,12 @@ import React from 'react';
 
 function Nutrition() {
   return (
-      <nav className="Nutrition">
-          API provided nutritional info 
-      </nav>
+    <div className="Nutrition">
+    <form>
+      <input></input>
+      <button>Search</button>
+    </form>
+  </div>
   );
 }
 
