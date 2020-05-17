@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="text-box">
+      <textarea placeholder="Comments"> </textarea>
     </div>
   );
 }
