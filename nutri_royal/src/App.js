@@ -1,4 +1,4 @@
-import ReactForm from './components';
+import ReactForm from './components/ReactForm';
 import React, { Component }from 'react';
 import './App.css';
 
