@@ -1,5 +1,10 @@
 body{
-  background-color: rgba(168, 118, 9, 0.397);
+  background-color: rgba(0, 0, 0, 0.886);
+}
+
+.title{
+  color: whitesmoke;
+  margin: 12px;
 }
 
 form{
@@ -31,9 +36,15 @@ form{
 }
 
 button{
+  padding: 12px;
+  margin: 12px;
   background-color: rgb(8, 126, 216);
   color: white;
   font-weight: 500;
   font-size: large;
   height: .5in;
+  width: 1in;
+  border: 1px solid rgb(32, 13, 2);
+  border-radius: 5px;
+  box-sizing: border-box;
 }

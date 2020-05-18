@@ -34,6 +34,7 @@ class controlledCompForm extends React.Component {
      <h3 className="title" > Comments </h3>
      <form ref="comment-form" className="comment-form">
       <textarea ref="comment" placeholder="Enter a comment.." className="text-field"></textarea>
+      <button onClick={this.onSubmit} className="submit-button"> Submit </button>
      </form>
 
    </div>
