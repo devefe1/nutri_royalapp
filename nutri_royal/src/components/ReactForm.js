@@ -5,14 +5,7 @@ class controlledCompForm extends React.Component {
     super(props);
 
     this.state = {
-      username: '',
-      password: '',
-      age: '',
-      gender: 
-        {male: '', 
-        female: '', 
-        other: ''},
-      occupation: ''
+      Comment: '',
     }
   //bind this to control for the component
   this.onInput = this.onInput.bind(this);
@@ -31,11 +24,7 @@ class controlledCompForm extends React.Component {
     // 2. this.props.onSubmit(this.state) --> shows user input in concole
     this.props.onSubmit(this.state)
     this.setState({
-      username: '',
-      password: '',
-      age: '',
-      gender: {male: '', female: '', other: ''},
-      occupation: ''
+      Comment: ' ',
     })
 
   } 
@@ -45,42 +34,22 @@ class controlledCompForm extends React.Component {
   return (
     <div className="reactapp">
       
-     <h1 className="title" >REACT BASE SIGN UP FORM</h1>
+     <h3 className="title" > Comments </h3>
 
       {/* used onchange to call the function that will catch the event that updates the state when text is entered in the input boxes */}
       <form onChange={this.onInput} >         
-        <div>
-          <label>Username</label>
-          <input type='text' name="username" />
-        </div>
 
         <div>
-          <label>Password</label>
           {/* 3. type passwrod hides the word you enter */}
-          <input type='password' name="password" />
+          <textarea > </textarea>
+          <label> Leave a Comment! </label>
         </div>
 
-        <div>
-          <label>Age</label>
-          <input type='text' name="age" />
-        </div>
-
-
-        <div>
-          <label>Gender</label>
-          <input type='text' name="gender" />
-        </div>
-
-
-        <div>
-          <label>Occupation</label>
-          <input type='text' name="occupation" />
-        </div>
       </form>
 
     {/* added onClick calls this.onInput */}
     {/* the page doesn't auto refresh so I don't pass an event */}
-    <button className='btn' onClick={() => this.onSubmit()}> {this.onSubmit} Display What You've Entered</button>
+    <button className='btn' onClick={() => this.onSubmit()}> {this.onSubmit} Display What You've Entered</button>    
 
    </div>
   );
