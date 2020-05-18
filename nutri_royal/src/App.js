@@ -19,6 +19,7 @@ class App extends Component {
       <div>
         {/* //onSubmit=displaBoxIn... shows user input in concole */}
         {/* 2. inside of ptag will be an empty object and JSON stringify makes it looks "nice" */}
+        <CommentForm />
              
       </div>
      );

@@ -5,7 +5,8 @@ class controlledCompForm extends React.Component {
     super(props);
 
     this.state = {
-
+      act: 0,
+      index: '',
     }
   //bind this to control for the component
   this.onInput = this.onInput.bind(this);
@@ -31,6 +32,9 @@ class controlledCompForm extends React.Component {
     <div className="reactapp">
       
      <h3 className="title" > Comments </h3>
+     <form ref="comment-form" className="comment-form">
+      <textarea ref="comment" placeholder="Enter a comment.." className="text-field"></textarea>
+     </form>
 
    </div>
   );
