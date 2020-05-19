@@ -6,9 +6,9 @@ function Menu() {
       <div className="menuContainer">
          <nav className="navBar">
            <div className="burgerMenu">
-             <div className="line1"></div>
-             <div className="line2"></div>
-             <div className="line3"></div>
+             <div className="line line1"></div>
+             <div className="line line2"></div>
+             <div className="line line3"></div>
            </div>
 
            <ul className= "navList">

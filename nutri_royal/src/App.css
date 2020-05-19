@@ -7,7 +7,6 @@ height: 50px;
 }
 
 .menuContainer{
-  border:solid  orange 5px;
   height: 150px;
 }
 
@@ -78,9 +77,45 @@ height: 50px;
 .burgerMenu{
   width: 35px;
   height: 30px;
-  background-color: red;
   position: fixed;
+  top: 70px;
   left: 50%;
   cursor: pointer;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: chocolate;
+}
+
+.navBar{
+  width: 100%;
+  height: 19.5%;
+  background-color: #262626;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navList{
+  /* text-align: ; */
+}
+
+.nav-item{
+  list-style: none;
+  margin: 25px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 15px;
+  color: #eee;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
