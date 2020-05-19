@@ -5,7 +5,7 @@ import Menu from './Components/Menu';
 import Selection from './Components/Selection';
 import Nutrition from './Components/Nutrition';
 import Review from './Components/Review';
-import './Script';
+
 
 function App() {
   return (
