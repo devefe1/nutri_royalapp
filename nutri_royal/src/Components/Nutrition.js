@@ -3,12 +3,12 @@ import React from 'react';
 const Nutrition = props => (
 
       <div className="Nutrition">
-          <h4>Search for Alternatice Recipes</h4>
+          <h3>Search For Alternative Recipes Here! </h3>
           <form onSubmit={props.getFacts}>
               <input name="foodName">
               </input>
               <button>
-                  Sumbit
+                  Search
               </button>
           </form>
           

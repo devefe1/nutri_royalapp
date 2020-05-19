@@ -62,7 +62,6 @@ class App extends Component{
         <div className="grid">
           <Selection />
           <Nutrition getFacts={this.getFacts} titles= {this.state.titles} />
-          {/* getinfo={this.getinfo} */}
           <Review />
         </div>
     </div>
