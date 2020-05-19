@@ -6,7 +6,7 @@ border:solid red ;
 height: 50px;
 }
 
-.Menu{
+.menuContainer{
   border:solid  orange 5px;
   height: 150px;
 }
@@ -73,4 +73,14 @@ height: 50px;
 #logo{
   height: 50px;
   float: left;
+}
+
+.burgerMenu{
+  width: 35px;
+  height: 30px;
+  background-color: red;
+  position: fixed;
+  left: 50%;
+  cursor: pointer;
+  
 }
