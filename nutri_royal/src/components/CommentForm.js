@@ -70,8 +70,8 @@ class CommentForm extends Component {
         <form ref="combox" className="outer-comment-box">
           {/* the ref helps with the focus */}
           <textarea ref="name" placeholder="Add a comment.." className="inner-comment-box"> </textarea>
-          <button onClick={this.fSubmit} className="submit-button">submit </button>
         </form>
+          <button onClick={this.fSubmit} className="submit-button"> Post </button>
 
         <pre>
           {inputs.map((data, i) =>

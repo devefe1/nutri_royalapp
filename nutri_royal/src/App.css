@@ -7,7 +7,7 @@
   width: 100%;
   background-color: rgba(181, 181, 181, 0.208);
   border-radius: 5xp;
-  padding: 20px;
+  padding: 50px;
 }
 
 .inner-comment-box {
@@ -26,8 +26,8 @@
   width: 30%;
   background-color: #00b894;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 15px;
+  margin: 40px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -44,7 +44,9 @@
   display: inline-block;
   height: auto;
   width: auto;
-  border-radius: 7px;
-  border: 1px solid #00b894;
-  margin: 3px 5px;
+  border-radius: 15px;
+  border: 1px solid #04201b94;
+  margin: 4px;
+  cursor: pointer;
+
 }
