@@ -29,6 +29,7 @@ function Menu() {
          </nav>
       </div>
   );
+  
 }
 
 export default Menu;
