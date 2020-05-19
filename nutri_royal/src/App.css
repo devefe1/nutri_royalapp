@@ -86,22 +86,8 @@ height: 50px;
   justify-content: space-around
 }
 
-.line {
-  width: 100%;
-  height: 3px;
-  background-color: chocolate;
-  transition: all 0.8s;
-}
 
-.change .line-1{
-  transform: rotateZ(-45deg) translate(-8px, 6px);
-}
-.change .line-2{
-  opacity: 0;
-}
-.change .line-3{
-  transform: rotateZ(45deg) translate(-8px,-6px);
-}
+
 .navBar{
   width: 100%;
   height: 19.5%;
@@ -112,9 +98,7 @@ height: 50px;
   align-items: center;
 }
 
-.navList{
-  /* text-align: ; */
-}
+
 
 .nav-item{
   list-style: none;
