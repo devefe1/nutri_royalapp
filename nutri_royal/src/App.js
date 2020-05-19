@@ -5,6 +5,7 @@ import Menu from './Components/Menu';
 import Selection from './Components/Selection';
 import Nutrition from './Components/Nutrition';
 import Review from './Components/Review';
+import foods from'./images/foods.jpg'
 
 
 
@@ -52,6 +53,15 @@ class App extends Component{
 ////////////////// API ////////////////API ////////////////API ////////////////API ////////////////API ////////////////
 
 ////////////////// API ////////////////API ////////////////API ////////////////API ////////////////API ////////////////
+
+
+
+
+
+
+
+
+
 
 
   render(){
