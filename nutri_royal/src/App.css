@@ -1,11 +1,13 @@
-body{
+/* body{ */
   /* position: fixed; */
-  margin: auto;
-}
+  /* margin: auto; */
+/* } */
 .App {
   text-align: center;
   background: url("/nutri_royalapp/nutri_royal/src/images/foods.jpg");
   position: absolute;
+  /* position: fixed; */
+  /* margin: auto; */
 }
 .Header{
 border:solid red ;
@@ -15,6 +17,7 @@ width: 100%;
 
 .menuContainer{
   height: 150px;
+  width: 100%;
 }
 
 
@@ -96,13 +99,13 @@ width: 100%;
 } 
 
 
-
  .navBar{
   width: 100%;
-  height: 19.5%;
+  height: 150px;
   background-color: #262626;
-  position: fixed;
+  /* position: fixed; */
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
 } 
