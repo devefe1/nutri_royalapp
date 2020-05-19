@@ -1,5 +1,4 @@
 .App {
-<<<<<<< HEAD
   text-align: center;
   background: url("/nutri_royalapp/nutri_royal/src/images/foods.jpg");
 }
@@ -64,58 +63,6 @@ height: 50px;
 #NavBarBttns{
   list-style-type: none;
   display: inline;
-=======
-  margin:auto;
-  width: 50%;
-}
-
-.outer-comment-box {
-  width: 100%;
-  background-color: rgba(181, 181, 181, 0.208);
-  border-radius: 5xp;
-  padding: 50px;
-}
-
-.inner-comment-box {
-  /* padding - is for the inside of the box  */
-  /* border - gets rid of the wierd shadow around / inside the commetnt box */
-  width: 100%;
-  padding: 20px 5px;
-  display: grid;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  font-size: medium;
-}
-
-.submit-button {
-  width: 30%;
-  background-color: #00b894;
-  color: white;
-  padding: 15px;
-  margin: 40px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: larger;
-}
-
-.list-elements {
-  list-style: none;
-  color: rgb(29, 3, 3);
-  background-color: rgba(181, 181, 181, 0.439);
-}
-
-.remove-edit-buttons {
-  display: inline-block;
-  height: auto;
-  width: auto;
-  border-radius: 15px;
-  border: 1px solid #04201b94;
-  margin: 4px;
-  cursor: pointer;
-
->>>>>>> kevin
 }
 #NavBarBttns li{
   float: right;

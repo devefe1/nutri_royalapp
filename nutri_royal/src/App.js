@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header';
-import Menu from './components/Menu';
-import Selection from './components/Selection';
-import Nutrition from './components/Nutrition';
-import Review from './components/Review';
+import Header from './Components/Header';
+import Menu from './Components/Menu';
+import Selection from './Components/Selection';
+import Nutrition from './Components/Nutrition';
+import Review from './Components/Review';
 import foods from'./images/foods.jpg'
 
 
