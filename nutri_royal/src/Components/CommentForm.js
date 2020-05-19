@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './styles/Review.css';
 
-class Review extends Component {
+class CommentForm extends Component {
   constructor(props) {
     super(props);
     this.state = { 
@@ -89,4 +88,4 @@ class Review extends Component {
     );
   }
 }
-export default Review;
+export default CommentForm;
