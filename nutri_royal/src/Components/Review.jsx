@@ -1,4 +1,5 @@
 import React, { Component } from './node_modules/react';
+import './styles/Review.css';
 
 class Review extends Component {
   constructor(props) {
