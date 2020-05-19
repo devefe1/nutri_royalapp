@@ -1,50 +1,50 @@
-body{
-  background-color: rgba(0, 0, 0, 0.886);
-}
-
-.title{
-  color: whitesmoke;
-  margin: 12px;
-}
-
-form{
-  font-weight: 550;
-  margin-bottom: .2in;
+.App {
+  margin:auto;
   width: 50%;
 }
 
-.text-field{
-  /* 1. 
-     width of boxes
-     extra width in boxes
-     margin around the boxes
-     border- outer edges of boxes
-     border rad- rounds the egdes 
-     border box- resizes the box
-     */
+.outer-comment-box {
   width: 100%;
-  padding: 12px;
-  margin: 12px;
-  border: 1px solid rgb(255, 89, 0);
+  background-color: rgba(181, 181, 181, 0.208);
+  border-radius: 5xp;
+  padding: 20px;
+}
+
+.inner-comment-box {
+  /* padding - is for the inside of the box  */
+  /* border - gets rid of the wierd shadow around / inside the commetnt box */
+  width: 100%;
+  padding: 20px 5px;
+  display: grid;
+  border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  font-size: medium;
+}
+
+.submit-button {
+  width: 30%;
+  background-color: #00b894;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   font-size: larger;
 }
 
-#title{
-  text-align: left;
+.list-elements {
+  list-style: none;
+  color: rgb(29, 3, 3);
+  background-color: rgba(181, 181, 181, 0.439);
 }
 
-button{
-  padding: 12px;
-  margin: 12px;
-  background-color: rgb(8, 126, 216);
-  color: white;
-  font-weight: 500;
-  font-size: large;
-  height: .5in;
-  width: 1in;
-  border: 1px solid rgb(32, 13, 2);
-  border-radius: 5px;
-  box-sizing: border-box;
+.remove-edit-buttons {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  border-radius: 7px;
+  border: 1px solid #00b894;
+  margin: 3px 5px;
 }

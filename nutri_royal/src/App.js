@@ -1,29 +1,22 @@
 import CommentForm from './components/CommentForm';
-import React, { Component }from 'react';
 import './App.css';
+import React, { Component } from 'react';
+
 
 class App extends Component {
-  state = {
+  constructor(props) {
+    super(props);
+    this.state = {  };
+  }
 
-  };
-  // onsubmit shows user input in concole
-  // console.log(`What the user just entered: ${displayBoxInput}`) --> what it says
-    // this.setState(`${displayBoxInput}`) - and below renders to page
-
-    onSubmit = () => { 
-
-     }
-
-  render() { 
-    return ( 
-      <div>
-        {/* //onSubmit=displaBoxIn... shows user input in concole */}
-        {/* 2. inside of ptag will be an empty object and JSON stringify makes it looks "nice" */}
+  render() {
+    return (
+      <div className="App">
         <CommentForm />
-             
       </div>
-     );
+
+    );
   }
 }
- 
-export default App;     
+
+export default App;
