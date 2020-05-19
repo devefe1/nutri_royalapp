@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Components/Header';
-import Menu from './Components/Menu';
-import Selection from './Components/Selection';
-import Nutrition from './Components/Nutrition';
-import Review from './Components/Review';
+import Header from './components/Header';
+import Menu from './components/Menu';
+import Selection from './components/Selection';
+import Nutrition from './components/Nutrition';
+import Review from './components/Review';
 import foods from'./images/foods.jpg'
 
 
@@ -56,15 +55,6 @@ class App extends Component{
 ////////////////// API ////////////////API ////////////////API ////////////////API ////////////////API ////////////////
 
 
-
-
-
-
-
-
-
-
-
   render(){
   return (
     <div className="App">
@@ -77,27 +67,6 @@ class App extends Component{
         </div>
     </div>
   );
-=======
-import CommentForm from './components/CommentForm';
-import './App.css';
-import React, { Component } from 'react';
-
-
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {  };
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <CommentForm />
-      </div>
-
-    );
-  }
->>>>>>> kevin
 }
 }
 
