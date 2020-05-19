@@ -1,6 +1,7 @@
 
 .App {
   text-align: center;
+  background: url("/nutri_royalapp/nutri_royal/src/images/foods.jpg");
   margin: auto;
 }
 .Header{
