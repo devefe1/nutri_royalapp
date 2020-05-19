@@ -1,4 +1,5 @@
 # Nutri Royal
+[click me to go to Nutri Royal](https://nutriroyal-12a27.web.app/)
 
 We are creating an app to help people view a menu and decide what to order.
 
