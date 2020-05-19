@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Components/Header';
@@ -76,6 +77,27 @@ class App extends Component{
         </div>
     </div>
   );
+=======
+import CommentForm from './components/CommentForm';
+import './App.css';
+import React, { Component } from 'react';
+
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {  };
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <CommentForm />
+      </div>
+
+    );
+  }
+>>>>>>> kevin
 }
 }
 
